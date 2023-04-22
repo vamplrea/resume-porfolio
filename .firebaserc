@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "about-me-f48de": {
+      "hosting": {
+        "resume-porfolio": [
+          "about-me-f48de"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "about-me-f48de"
+  }
+}
