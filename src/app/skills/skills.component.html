@@ -51,30 +51,21 @@
       <li class="list-inline-item"><i class="fab fa-npm"></i></li>
     </ul>-->
     <ul lass="list-inline dev-icons">
-      <li><b>Web Development:</b> Angular, Progressive Web Application (PWA), Spring framework, Spring Boot, HTML5, CSS3, SCSS, RxJs</li>
-      <li><b>UI Frameworks:</b> Bootstrap, ngMaterial, Clarity, Servlet(JSP), Thymeleaf</li>
-      <li><b>Programing Languages:</b> JavaScript (ES5, ES6), TypeScript, Java (8), Python, C#</li>
-      <li><b>Design Tool:</b> Figma, Adobe Suite (Photoshop, Illustrator, Indesign)</li>
-      <li><b>API Tool:</b> Postman, Mockoon</li>
-      <li><b>Databases:</b> MySQL, PostgreSQL, MS SharePoint, Firebase</li>
-      <li><b>Version Control:</b> Git, Github</li>
-      <li><b>Development methodologies:</b> Agile/Scrum</li>
-      <li><b>Project management tools:</b> JIRA, Trello</li>
-      <li><b>Operating System:</b> Windows, Mac, Linux</li>
-      <li><b>Language:</b> Proficient in English, Fluency in Vietnamese</li>
+      <li *ngFor="let skillKey  of getSkillKeys()">
+        <b>{{skillKey}}:</b> {{TechnicalSkills[skillKey]}}
+      </li>
+<!--      <li><b>Web Development:</b> Angular, Progressive Web Application (PWA), Spring framework, Spring Boot, HTML5, CSS3, SCSS, RxJs</li>-->
+<!--      <li><b>UI Frameworks:</b> Bootstrap, ngMaterial, Clarity, Servlet(JSP), Thymeleaf</li>-->
+<!--      <li><b>Programing Languages:</b> JavaScript (ES5, ES6), TypeScript, Java (8), Python, C#</li>-->
+<!--      <li><b>Design Tool:</b> Figma, Adobe Suite (Photoshop, Illustrator, Indesign)</li>-->
+<!--      <li><b>API Tool:</b> Postman, Mockoon</li>-->
+<!--      <li><b>Databases:</b> MySQL, PostgreSQL, MS SharePoint, Firebase</li>-->
+<!--      <li><b>Version Control:</b> Git, Github</li>-->
+<!--      <li><b>Development methodologies:</b> Agile/Scrum</li>-->
+<!--      <li><b>Project management tools:</b> JIRA, Trello</li>-->
+<!--      <li><b>Operating System:</b> Windows, Mac, Linux</li>-->
+<!--      <li><b>Language:</b> Proficient in English, Fluency in Vietnamese</li>-->
     </ul>
-
-
-
-
-
-
-
-
-
-
-
-
 
 
   </div>
